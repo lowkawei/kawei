@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>FeLIX | Music | Reviews: Acre - In God&rsquo;s Car There Are No Spare Seats</title>
+<meta name="description" content="Acre: In God’s Car There Are No Spare Seats - CD review by Philip Kaberry from FeLIX magazine.">
+<meta name="keywords" content="Acre, In God’s Car There Are No Spare Seats, Byron Bay bands, Philip Kaberry"><!-- TemplateEndEditable -->
+<link href="../css/felix.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+
+if (document.images) {
+	image0on = new Image(); image0on.src = "../../../images/felixlogo_hover.gif";
+	image1on = new Image(); image1on.src = "../../../images/musicicon_hover.gif";
+	image2on = new Image(); image2on.src = "../../../images/filmicon_hover.gif";
+	image3on = new Image(); image3on.src = "../../../images/guideicon_hover.gif";
+	image4on = new Image(); image4on.src = "../../../images/playicon_hover.gif";
+	image5on = new Image(); image5on.src = "../../../images/forumicon_hover.gif";
+	
+	image0off = new Image(); image0off.src = "../../../images/felixlogo.gif";
+	image1off = new Image(); image1off.src = "../../../images/musicicon.gif";
+	image2off = new Image(); image2off.src = "../../../images/filmicon.gif";
+	image3off = new Image(); image3off.src = "../../../images/guideicon.gif";
+	image4off = new Image(); image4off.src = "../../../images/playicon.gif";
+	image5off = new Image(); image5off.src = "../../../images/forumicon.gif";
+
+	image6off = new Image(); image6off.src = "../../../images/tagline.gif";
+	image6felix = new Image(); image6felix.src = "../../../images/felixtext.gif";
+	image6music = new Image(); image6music.src = "../../../images/musictext.gif";
+	image6film = new Image(); image6film.src = "../../../images/filmtext.gif";
+	image6whatson = new Image(); image6whatson.src = "../../../images/guidetext.gif";
+	image6quiz = new Image(); image6quiz.src = "../../../images/playtext.gif";
+	image6forum = new Image(); image6forum.src = "../../../images/forumtext.gif";
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+}
+
+function handleClick(whichClick) {
+	if (whichClick == "Logon") {
+	// then the user wants to hide the layer
+		hideLayer("logon");
+		showLayer("logoff");
+		hideLayer("topad");
+	}
+	else if (whichClick == "Logoff") {
+	// then the user wants to show the layer
+		hideLayer("logoff");
+		showLayer("logon");
+		showLayer("topad");
+	}
+}
+
+</script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="mainbox">
+
+	<div id="header">
+
+		<div id="masthead">
+			<table border="0" width="760" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="120" height="36" valign="top"><a href="../index.html" onmouseover="changeImages('image0','image0on','image6','image6felix')" onmouseout="changeImages('image0','image0off','image6','image6off');"><img src="../images/felixlogo.gif" alt="FeLIX" name="image0" width="120" height="36" border="0"></a></td>
+					<td width="103" height="36"></td>
+					<td width="47" height="36"><a href="../music/music.html" onmouseover="changeImages('image1','image1on','image6','image6music');" onmouseout="changeImages('image1','image1off','image6','image6off');"><img src="../images/musicicon.gif" alt="Go to Music Section" name="image1" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../film/film.html" onmouseover="changeImages('image2','image2on','image6','image6film');" onmouseout="changeImages('image2','image2off','image6','image6off');"><img src="../images/filmicon.gif" alt="Go to Film Section" name="image2" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../guide/guide.html" onmouseover="changeImages('image3','image3on','image6','image6whatson');" onmouseout="changeImages('image3','image3off','image6','image6off');"><img src="../images/guideicon.gif" alt="Go to What's On" name="image3" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../play/play.html" onmouseover="changeImages('image4','image4on','image6','image6quiz');" onmouseout="changeImages('image4','image4off','image6','image6off');"><img src="../images/playicon.gif" alt="Go to Quizzes and Competitions" name="image4" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../forum/forum.html" onmouseover="changeImages('image5','image5on','image6','image6forum');" onmouseout="changeImages('image5','image5off','image6','image6off');"><img src="../images/forumicon.gif" alt="Go to the Forums" name="image5" width="47" height="36" border="0"></a></td>
+					<td width="86" height="36"></td>
+					<td width="136" height="36"><img src="../images/tagline.gif" alt="Feel Film, Feel Music" name="image6" width="136" height="36"></td>
+				</tr>
+			</table>
+		</div>
+	
+	<div id="logoff" style="display:block">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="400"><a href="../about.html#support">Thank you for supporting FeLIX!</a></td>
+				<td align="right" height="25">Welcome Rosanne Bersten | <a href="#">Log Off</a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="breadcrumbbar">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="500"><a href="../index.html">Home</a> / <a href="../music/music.html">Music</a> / Reviews </td>
+				<td align="right" height="25"></td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	
+	<div id="content">
+	
+		<div id="extrascolumn">
+	      <!-- TemplateBeginEditable name="EditAlbumCover" -->
+	      <p><img src="../music/reviews/acre/images/acre.jpg" alt="alt text here" width="200" height="200"></p>
+			<p class="sidebarhead">30 second MP3 Previews</p>
+			<ol class="sidebartext">
+			  <li><a href="media/01_everyday_i_love_you_less.mp3">Everyday I Love You Less </a>(372KB)</li>
+		      <li><a href="media/02_i_predict_a_riot.mp3">I Predict A Riot</a> (372KB) </li>
+		      <li><a href="media/03_modern_way.mp3">Modern Way</a> (372KB)</li>
+		      <li><a href="media/04_na_na_na_na_naa.mp3">Na Na Na Na Naa</a> (372KB)</li>
+		      <li><a href="media/05_you_can_have_it_all.mp3">You Can Have It All</a> (372KB)</li>
+		      <li><a href="media/06_oh_my_god.mp3">Oh My God</a> (372KB)</li>
+		      <li><a href="media/07_born_to_be_a_dancer.mp3">Born To Be A Dancer</a> (372KB)</li>
+		      <li><a href="media/08_saturday_night.mp3">Saturday Night</a> (372KB)</li>
+		      <li><a href="media/09_what_did_i_ever_give_you.mp3">What Did I Ever Give You</a> (372KB)</li>
+		      <li><a href="media/10_time_honoured_tradition.mp3">Time Honoured Tradition</a> (372KB)</li>
+		      <li><a href="media/11_caroline_yes.mp3">Caroline Yes</a> (372KB)</li>
+		  </ol>
+		  <p class="sidebarhead">QuickTime Music Videos</p>
+		  <ol class="sidebartext">
+		    <li>Everyday I Love You Less | <a href="media/01_everyday_i_love_you_less_hi.mov">Hi</a> (8.7MB) <a href="media/01_everyday_i_love_you_less_lo.mov">Lo</a> (4.4MB) </li>
+	        <li>I Predict A Riot | <a href="media/02_i_predict_a_riot_hi.mov">Hi</a> (9.3MB) <a href="media/02_i_predict_a_riot_lo.mov">Lo</a> (4.7MB) </li>
+		    <li>Born To Be A Dancer | <a href="media/07_born_to_be_a_dancer_hi.mov">Hi</a> (7.8MB) <a href="media/07_born_to_be_a_dancer_lo.mov">Lo</a> (4.8MB)</li>
+		    <li>Take My Temperature | <a href="media/12_take_my_temperature_hi.mov">Hi</a> (6.5MB) <a href="media/12_take_my_temperature_lo.mov">Lo</a> (4MB) </li>
+		  </ol>
+		  <p class="sidebarhead">Support FeLIX!</p>
+		  <p class="sidebartext"><a href="http://chaos.com/?action=view&id=713635">Buy Kaiser Chief's latest album here&nbsp;&gt;&gt;&gt;</a> </p>	      <!-- TemplateEndEditable --></div>
+			
+		<div id="storycolumn">
+			<!-- TemplateBeginEditable name="EditAlbumInfo" -->
+			<p class="storyhead">Acre<br>
+  In God&rsquo;s Car There Are No Spare Seats<br>
+  Route Note Records</p>
+			<!-- TemplateEndEditable --> <!-- TemplateBeginEditable name="EditReviewText" -->
+			<p>Once I hit my sister in the eyeball with a ping-pong ball and it filled completely with blood, and she had to be rushed to hospital. Despite this traumatic memory (I thought I&rsquo;d permanently blinded her), I love the first track on Acre&rsquo;s new album. You might have heard it on the radio: it starts with a sampled recording of a snappy ping-pong game which blends into a rollicking beat complete with xylophone, banjo and harmonica stylings.</p>
+			<p>It&rsquo;s an apt signature to an album that&rsquo;s refreshingly inventive, entertaining and well crafted in terms of songwriting and production. &hellip;Spare Seats is cruisey, bluesy, folksy stuff with a wide range of instruments contributing to a sound not quite like anything I&rsquo;ve heard before. There aren&rsquo;t too many moments of irritation or intrusiveness; it&rsquo;s a dynamic, wandering listen that keeps you interested all the way through. I like playing it at high volume while doing the washing up, or while driving the car in traffic to stay calm.</p>
+			<p>The bio claims the group&rsquo;s influences include <a href="http://www.neilyoung.com/">Neil Young</a>, <a href="http://www.thechurchband.com/">The Church</a>, <a href="http://www.wilcoworld.net/">Wilco</a> and <a href="http://www.tomwaits.com/">Tom Waits</a>. I pay that and up the ante by adding <a href="http://www.matadorrecords.com/pavement/">Pavement</a> to the list.</p>
+			<p>This four-piece come from Byron Bay and they formed six years ago. This is their second album. It is very impressive. You should go to your change jar and scrape together enough coin to purchase it immediately, so you can put it on before someone suggests something crap to play at a party. And then they&rsquo;ll say, &ldquo;Who is this? They&rsquo;re awesome&rdquo;, and you can say, &ldquo;Oh, they&rsquo;re just this Byron band I heard about, they&rsquo;re really good&rdquo; and everyone will think you&rsquo;re ahead of your time. Just like when you were listening to <a href="http://www.johnbutlertrio.com/">John Butler</a> before anyone ever heard of him. You dig?</p>
+			<!-- TemplateEndEditable -->
+			<!-- TemplateBeginEditable name="EditByline" -->
+			<p class="storybyline">Philip Kaberry</p>
+			<!-- TemplateEndEditable -->
+			<p>Back to Music Home&nbsp;<a href="../music/music.html">&gt;&gt;&gt; </a></p>
+	  </div>
+		
+  </div>
+	
+	<div id="footer">	
+		<div id="siteinfo">
+			<p><a href="../about.html#about">About Us</a> | <a href="../about.html#contribute">Contribute</a> | <a href="../about.html#support">Support Us</a> | <a href="../subscribe.html">Subscribe</a> | <a href="../advertise.html">Advertise</a> | <a href="../legalese.html#disclaimer">Disclaimer</a> | <a href="../legalese.html#copyright">Copyright</a> | <a href="../legalese.html#privacy">Privacy Policy </a> | <a href="../contact.html">Contact Us</a></p>
+			<p>&copy; Contents copyright 2005 FeLIX. All rights reserved.</p>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

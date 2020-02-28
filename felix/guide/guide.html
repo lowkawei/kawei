@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>FeLIX | Guide : Melbourne</title>
+<meta name="description" content="FeLIX magazine’s guide to what’s on in Melbourne.">
+<meta name="keywords" content="Sigur Ross, Nine Inch Nails, Athlete, Motor Ace, Fiona Horne, The Black Seeds, Motley Crue, The Go! Team, The Drones">
+<link href="../css/felix.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+
+if (document.images) {
+	image0on = new Image(); image0on.src = "../images/felixlogo_hover.gif";
+	image1on = new Image(); image1on.src = "../images/musicicon_hover.gif";
+	image2on = new Image(); image2on.src = "../images/filmicon_hover.gif";
+	image3on = new Image(); image3on.src = "../images/guideicon_hover.gif";
+	image4on = new Image(); image4on.src = "../images/playicon_hover.gif";
+	image5on = new Image(); image5on.src = "../images/forumicon_hover.gif";
+	
+	image0off = new Image(); image0off.src = "../images/felixlogo.gif";
+	image1off = new Image(); image1off.src = "../images/musicicon.gif";
+	image2off = new Image(); image2off.src = "../images/filmicon.gif";
+	image3off = new Image(); image3off.src = "../images/guideicon_visited.gif";
+	image4off = new Image(); image4off.src = "../images/playicon.gif";
+	image5off = new Image(); image5off.src = "../images/forumicon.gif";
+
+	image6off = new Image(); image6off.src = "../images/tagline.gif";
+	image6felix = new Image(); image6felix.src = "../images/felixtext.gif";
+	image6music = new Image(); image6music.src = "../images/musictext.gif";
+	image6film = new Image(); image6film.src = "../images/filmtext.gif";
+	image6whatson = new Image(); image6whatson.src = "../images/guidetext.gif";
+	image6quiz = new Image(); image6quiz.src = "../images/playtext.gif";
+	image6forum = new Image(); image6forum.src = "../images/forumtext.gif";
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+}
+
+function handleClick(whichClick) {
+	if (whichClick == "Logon") {
+	// then the user wants to hide the layer
+		hideLayer("logon");
+		showLayer("logoff");
+		hideLayer("topad");
+	}
+	else if (whichClick == "Logoff") {
+	// then the user wants to show the layer
+		hideLayer("logoff");
+		showLayer("logon");
+		showLayer("topad");
+	}
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="mainbox">
+
+	<div id="header">
+
+		<div id="masthead">
+			<table border="0" width="760" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="120" height="36" valign="top"><a href="../index.html" onmouseover="changeImages('image0','image0on','image6','image6felix')" onmouseout="changeImages('image0','image0off','image6','image6off');"><img src="../images/felixlogo.gif" alt="FeLIX" name="image0" width="120" height="36" border="0"></a></td>
+					<td width="103" height="36"></td>
+					<td width="47" height="36"><a href="../music/music.html" onmouseover="changeImages('image1','image1on','image6','image6music');" onmouseout="changeImages('image1','image1off','image6','image6off');"><img src="../images/musicicon.gif" alt="Go to Music Section" name="image1" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../film/film.html" onmouseover="changeImages('image2','image2on','image6','image6film');" onmouseout="changeImages('image2','image2off','image6','image6off');"><img src="../images/filmicon.gif" alt="Go to Film Section" name="image2" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="guide.html" onmouseover="changeImages('image3','image3on','image6','image6whatson');" onmouseout="changeImages('image3','image3off','image6','image6off');"><img src="../images/guideicon_visited.gif" alt="Go to What's On" name="image3" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../play/play.html" onmouseover="changeImages('image4','image4on','image6','image6quiz');" onmouseout="changeImages('image4','image4off','image6','image6off');"><img src="../images/playicon.gif" alt="Go to Quizzes and Competitions" name="image4" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../forum/forum.html" onmouseover="changeImages('image5','image5on','image6','image6forum');" onmouseout="changeImages('image5','image5off','image6','image6off');"><img src="../images/forumicon.gif" alt="Go to the Forums" name="image5" width="47" height="36" border="0"></a></td>
+					<td width="86" height="36"></td>
+					<td width="136" height="36"><img src="../images/tagline.gif" alt="Feel Film, Feel Music" name="image6" width="136" height="36"></td>
+				</tr>
+			</table>
+		</div>
+	
+	<div id="logoff" style="display:block">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="400"><a href="../about.html#support">Thank you for supporting FeLIX!</a></td>
+				<td align="right" height="25">Welcome Rosanne Bersten | <a href="#">Log Off</a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="breadcrumbbar">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="500"><a href="../index.html">Home</a> / Guide</td>
+				<td align="right" height="25">&nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	
+	<div id="content">
+	
+		<div id="guidenavcolumn">
+	      <p><img src="images/cities.gif" alt="Links to other cities" width="150" height="305" border="0" usemap="#Map">
+            <map name="Map">
+              <area shape="rect" coords="39,15,148,167" href="#" alt="Text: Australian major cities" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">
+              <area shape="rect" coords="33,198,138,289" href="#" alt="Text: Australian major cities" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">
+            </map>
+	      </p>
+      </div>
+			
+		<div id="guidecolumn">
+			<p class="columnhead">GIG GUIDE MAY 2005</p>
+			<p>You&rsquo;re busy, we understand. You need to plan ahead. And not just because the tickets might sell out! Check out our  guide to all the big events in your Melbourne, with every new announcement uploaded as soon as we receive it. </p>
+	      <p>Not in Melbourne and looking for good live music? Try the links on the left and discover live music in every Australian major city. </p>
+	      <p style="border-top:1px solid #999999;border-bottom:1px solid #999999;padding:5px 0px"><a href="#a">A</a>&nbsp;|&nbsp;<a href="#b">B</a>&nbsp;|&nbsp;C&nbsp;|&nbsp;<a href="#d">D</a>&nbsp;|&nbsp;E&nbsp;|&nbsp;<a href="#f">F</a>&nbsp;|&nbsp;G&nbsp;|&nbsp;<a href="#h">H</a>&nbsp;|&nbsp;<a href="#i">I</a>&nbsp;|&nbsp;<a href="#j">J</a>&nbsp;|&nbsp;K&nbsp;|&nbsp;<a href="#l">L</a>&nbsp;|&nbsp;<a href="#m">M</a>&nbsp;|&nbsp;<a href="#n">N</a>&nbsp;|&nbsp;O&nbsp;|&nbsp;P&nbsp;|&nbsp;Q&nbsp;|&nbsp;R&nbsp;|&nbsp;<a href="#s">S</a>&nbsp;|&nbsp;<a href="#t">T</a>&nbsp;|&nbsp;U&nbsp;|&nbsp;V&nbsp;|&nbsp;<a href="#w">W</a>&nbsp;|&nbsp;X&nbsp;|&nbsp;Y&nbsp;|&nbsp;Z</p>
+			<p><strong><a name="a"></a>ALICE COOPER</strong></p>
+			<p>Alice Cooper, the undisputed godfather of shock rock, will tour Australia in June in his first ever shows in 'intimate sized' theatres. He&rsquo;ll be playing at the Palais on June 30. His special guest will be one of the legends of Australian rock'n'roll &ndash; Billy Thorpe. Tickets from <a href="http://www.ticketmaster.com.au/">Ticketmaster7</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>ATHLETE </strong></p>
+			<p>Athlete tantalised Australian audiences earlier this year with packed shows leaving fans wanting more. Now they&rsquo;ll be returning to Australia in July, after supporting U2 and performing at the UK&rsquo;s top festivals Glastonbury and T in the Park. They play The HiFi Bar on Monday July 25.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="b" id="b"></a>BLACK NIELSON</strong></p>
+			<p>Lovelorn British balladeers Black Nielson make their way to Australia in June to melt your heart strings and get your toes tapping. Check their album, <em>Current Sunlight</em> for more and if you like what you hear, be at The Northcote Social Club on June 17, where they&rsquo;ll be supported by The Crayon Fields. Tickets from the <a href="http://northcotesocialclub.com/">venue</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>BOB LOG III</strong></p>
+			<p>The Evel Knieval of rock&rsquo;n&rsquo;roll, Bob Log III returns to Australia to play two select shows this winter. Bob will be teaming his patented one-man, slide-guitar ride with Melbourne&rsquo;s Town Bikes to create a huge disco-boogie, pool-blues, dance show complete with pyrotechnic lighting and major visuals. Catch the combined powers of Bob Log III &amp; The Town Bikes on June 25 at The Corner Hotel. Tickets from the Corner <a href="http://www.cornerhotel.com/">box office</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="d" id="d"></a>DAVID BRIDIE&rsquo;S WORLD RHYTHMS </strong></p>
+			<p>Acclaimed Australian singer/songwriter David Bridie (My Friend the Chocolate Cake, Not Drowning Waving) is set to perform in the intimate surrounds of the historical Brunswick Town Hall on Sunday June 5, from 4pm. Bookings: 9890 4203.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>DOVES</strong></p>
+			<p>After cancelling a string of dates on their current world tour as a result of lead singer Jimi Goodwin&rsquo;s illness, Manchester trio Doves have rescheduled their dates and will return to play a club show at The Forum Theatre on Saturday July 16. Tickets from <a href="http://premier.ticketek.com.au/">Ticketek</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="f" id="f"></a>FIONA HORNE</strong></p>
+			<p>After three years living and working in Los Angeles, White Witch, author and motivational speaker Fiona Horne will be coming home in July with her <em>One Enchanted Evening Tour</em>. Every pre-sold ticket holder will receive a complimentary copy of Fiona&rsquo;s latest Australian release, <em>The Coven-Making Magick Together</em>, and the opportunity to have it signed by Fiona at the end of the show; at Ruby&rsquo;s in Belgrave on July 20 and The Northcote Social Club on July 21. Visit her <a href="http://www.fionahorne.com/">web site</a> for more.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="h" id="h"></a>HANSON</strong></p>
+			<p>After a brief visit last year, playing two sold out acoustic shows, Hanson will be back in Melbourne, playing live at the Palais on June 5 and 6. Tickets from <a href="http://www.ticketmaster.com.au/">Ticketmaster7</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>HOT SNAKES</strong></p>
+			<p>Hot Snakes (featuring members of Rocket From The Crypt &amp; Drive Like Jehu) are maudlin punk at its finest. Hot on the heels of the recently released <em><a href="../music/reviews/hotsnakes/hotsnakes.html">Peel Sessions</a></em> album, the band come to Australia for their first ever tour, playing The Corner Hotel on July 8. Tickets from the Corner <a href="http://www.cornerhotel.com/">box office</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="i" id="i"></a>INTERPOL</strong></p>
+			<p>Interpol&rsquo;s flair for the dramatic, and their&nbsp;savvy, visionary&nbsp;song-writing has struck a chord in the UK, US and Australia and now they&rsquo;re touring here, for the second time, in July. Here for the sold out Splendour in the Grass on July 24, they&rsquo;ll also play The Metro on Bourke Street on July 26 and 27. Tickets from the Corner <a href="http://www.cornerhotel.com/">box office</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="j" id="j"></a>JANE BIRKIN&rsquo;S ARABESQUE</strong></p>
+			<p>In a powerful homage to her partner and mentor Serge Gainsbourg, the chanteuse, star of film and stage, style icon and darling of the French avant-garde, Jane Birkin takes to the Hamer Hall stage on June 15 with <em>Arabesque</em>, her stunning reinterpretation of Gainsbourg songs, many of them penned especially for her. Tickets through <a href="http://www.ticketmaster.com.au/">Ticketmaster7</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>JEBEDIAH</strong></p>
+			<p>Jebediah celebrate their tenth birthday with a short and sharp tour, playing The Gershwin Room at The Esplanade on June 24 and the Northcote Social Club on June 29, supported by Red Jezebel and Neon. Tickets from the <a href="http://northcotesocialclub.com/">venue</a>. </p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="l" id="l"></a>LITTLE BARRIE</strong></p>
+			<p>Funkalicious? Funkadelic? Funktastic? Meet Little Barrie, the English trio whose entire ethos has at its heart a stripped-to-the-bone rootsy groove. Little Barrie will be heading to Australia in June for their first tour here, playing June 11 at the Northcote Social Club, supported by Treetops. Tickets from the <a href="http://northcotesocialclub.com/">venue</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>LUCKY DUBE</strong></p>
+			<p>South African born and globally revered reggae star, Lucky Dube is coming to Australia for a double header gig with Jamaica&rsquo;s Third World. See them on Wednesday June 8 at The Prince Bandroom. Tickets from <a href="http://premier.ticketek.com.au/">Ticketek</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="m" id="m"></a>MELBOURNE INTERNATIONAL ANIMATION FESTIVAL</strong></p>
+			<p>The 5th annual MIAF is on at the Australian Centre for the Moving Image from June 21-26 and promises a bigger and more exciting program than ever, presenting more than 200 short animated films from over 30 countries. Visit the <a href="http://www.miaf.net/">web site</a> for more.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>MELBOURNE INTERNATIONAL FILM FESTIVAL</strong></p>
+			<p>Australia&rsquo;s biggest and most prestigious film festival runs in cinemas throughout the city centre from July 20-August 7. With over 400 films from more than 50 countries screening, this annual celebration of the best in world cinema has something for everybody; from films about music to film about the oddest sports around (anyone for a spot of Murderball?). Visit the <a href="http://www.melbournefilmfestival.com.au/index.php">web site</a> for more.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>MOBY</strong></p>
+			<p>It&rsquo;s been two years since Moby last graced a stage here. So he promises fans plenty of new material at his upcoming Australian tour dates, along with many previous hits. He performs live at The Palace on July 21. Tickets from <a href="http://premier.ticketek.com.au/">Ticketek</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>MIA DYSON</strong></p>
+			<p>One of Australia&rsquo;s hottest young roots artists, Mia Dyson will play at The Prince Of Wales on June 17, with special guest Jen Cloher. Tickets from the venues, Greville Records, Polyester Records or Gaslight Records.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>M&Ouml;TLEY CR&Uuml;E</strong></p>
+			<p>The original members of M&ouml;tley Cr&uuml;e &ndash; Nikki Sixx, Vince Neil, Mick Mars and Tommy Lee &ndash; were the raucous rulers of the sex-and-drugs-fuelled nightlife on LA&rsquo;s Sunset Strip and one of the world&rsquo;s most infamous rock bands; and they&rsquo;re bringing their Red, White &amp; Cr&uuml;e Tour 2005 to Vodaphone Arena on December 6, with The Casanovas and the UK&rsquo;s Motorhead. Tickets from <a href="http://premier.ticketek.com.au/">Ticketek</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>MOTOR ACE</strong></p>
+			<p>To coincide with the release of their forthcoming third album, <em>Animal</em>, Motor Ace will be hitting the road on a national tour with special guests Neon. They play June 30 at the HiFi Bar, with guest treetops. Tickets from the venue.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="n" id="n"></a>NINE INCH NAILS</strong></p>
+			<p>From their 1989 debut with <em>Pretty Hate Machine </em>through the 1994 breakthrough <em>The Downward Spiral </em>and this year&rsquo;s <em>With Teeth</em>, Nine Inch Nails have created dazzling sonic soundscapes with his unique man vs machine, post-apocalyptic, black electronica. They play live on August 17 at Rod Laver Arena. Tickets through <a href="http://premier.ticketek.com.au/">Ticketek</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="s" id="s"></a>SIGUR ROS </strong></p>
+			<p>For years, fans with an ear to the underground have been buzzing about a band they're not even sure how to pronounce. They&rsquo;ll get a chance to hear the band say &lsquo;We&rsquo;re Sigur Ros&rsquo;, as it&rsquo;s meant to be said, at Hamer Hall on August 3. Tickets from <a href="http://www.ticketmaster.com.au/">Ticketmaster7</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>SOUTHERN CULTURE ON THE SKIDS</strong></p>
+			<p>Those chicken lovin', limbo dancin&rsquo;, long board surfin', hillbilly geeks from North Carolina, Southern Culture On The Skids return to Australia this June, for the first time in <em>five</em> years. Catch &lsquo;em on Friday June 10 at The Northcote Social Club, or Saturday June 11 at the Corner Hotel. Tickets from the venues.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>STARS BEHIND BARS</strong></p>
+			<p>The Living End, Dallas Crane, Even, Mia Dyson, The Town Bikes and Jimmy Barnes will all take part in this year&rsquo;s MS Society fundraising benefit extravaganza, Stars Behind Bars, at The Prince Of Wales on Thursday June 2. Tickets from the <a href="http://www.princebandroom.com.au/">venue</a>. </p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>STEREOPHONICS</strong></p>
+			<p>Following the release of their new album, <em>Language. Sex. Violence. Other?</em>, Stereophonics return to our shores this June after a five year absence. They play June 29 at The Forum. Tickets from <a href="http://premier.ticketek.com.au/">Ticketek</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>ST KILDA FILM FESTIVAL</strong></p>
+			<p>The 22nd St Kilda Film Festival features 100 short films, and boasts Australia&rsquo;s only music video competition: soundKILDA. Oscar winner Adam Elliot, Oscar nominee Steve Pasvolsky and Cannes Palme D&rsquo;Or winner Glendyn Ivin have all previously won awards at this festival. It&rsquo;s on from May 24-29, in St Kilda, and then embarks on a six-week national tour. For bookings call: 03 9534 6922. Visit the <a href="http://www.stkildafilmfestival.com.au/">web site</a> for more. </p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="t" id="t"></a>TASTE OF CHAOS</strong></p>
+			<p>The international touring sensation, Taste Of Chaos is heading to Australia this October, anchored by punk bands The Used, Killswitch Engage, Story Of The Year, Funeral For A Friend and Rise Against. The brainchild of Kevin Lyman (who founded and produced the Vans Warped Tour), the multi-artist package hits Rod Laver Arena on October 26. Tickets from <a href="http://premier.ticketek.com.au/">Ticketek</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>TEX PERKINS and THE DARK HORSES </strong></p>
+			<p>Tex Pekins and his Dark Horses will be playing on Thursday June 2 at Ruby&rsquo;s Lounge in Belgrave and Friday June 3 at The Prince Of Wales, with special guest Jen Cloher and The Endless Sea. Tickets from the <a href="http://www.princebandroom.com.au/">venue</a>. </p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THALIA ZEDEK</strong></p>
+			<p>Legendary Boston underground rock heroine Thalia Zedek and her band has been a deeply influential and fiercely revered figure throughout her 20-year career. With fans including Kurt Cobain, Bob Mould and J Mascis, Zedek's music is often compared to Patti Smith fronting The Dirty Three. She plays live at The Northcote Social Club on July 28 and Ding Dong on July 29. Tickets from the venues.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE BLACK SEEDS</strong></p>
+			<p>With two successful albums in New Zealand and several years of successful touring, Wellington-based band The Black Seeds is an eight-piece live band, producing a unique blend of funk, reggae, soul and dub. See them live at The Prince of Wales on June 5. Tickets from<a href="http://www.princebandroom.com.au/"> the venue</a>. </p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE BLUEHOUSE</strong></p>
+			<p>The Bluehouse have been enjoying considerable success in the United States where their latest tour just ended. They are back in Australia to play at the totally revamped Central Club Hotel in Richmond on July 16. Visit the <a href="http://www.bluehouse.net/">web site</a> for more.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE DETROIT COBRAS</strong></p>
+			<p>The ultimate party band, The Detroit Cobras are on their way to Australia for the very first time with their energetic retro garage rock&rsquo;n&rsquo;soul. Their sassy, greasy songs have been stalwart tunes in rock clubs and will be delivered loud, rough and live at The Prince Of Wales Bandroom on Friday June 24. Tickets from the <a href="http://www.princebandroom.com.au/">venue</a>. </p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE DRONES</strong></p>
+			<p>Kim Salmon has kindly accepted The Drones invitation to deliver his favourite Scientists songs in a solo performance &ndash; largely in honour of all of those music critics that have ever likened The Drones to The Scientists &ndash; on Friday June 3 at The Tote. Tickets from the venue.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE GO! TEAM</strong></p>
+			<p>With a sound they describe as a cross between Sonic Youth, 60s girl groups, electro, a car chase and a Double Dutch team,&nbsp;and a&nbsp;raucous debut album&nbsp;in Thunder Lighting Strike, UK&nbsp;schizopop outfit The Go! Team play live at The Corner Hotel on July 28 and 29. Tickets from the Corner <a href="http://www.cornerhotel.com/">box office</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE HARD-ONS</strong></p>
+			<p>The Hard-Ons can proudly name Turbonegro, Mike Patton, Dave Grohl and pop singer Kate Ceberano among their many fans. To celebrate turning 21 this year, they&rsquo;re embarking on a nationwide tour which arrives at The Esplanade on June 30 and The Green Room on July 1. Tickets from the venues.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE NIGHT IS YOUNG </strong></p>
+			<p>The Night Is Young is a national tour featuring Evermore, theredsunband, The Vasco Era and The Panda Band; it reaches the Hifi Bar on June 9 and 10. Tickets from the venue, Gaslight Records and Polyester Records. </p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong>THE SIGHTS</strong></p>
+			<p>After releasing their third albumon Melbourne label In-Fidelity, Detroit's The Sights are set to head over to our shores to embark on a national tour with their good friends fromMelbourne,The Pictures. Both bands play The Corner Hotel on July 2 or The Tote on July 3 (all ages). Tickets from the Corner <a href="http://www.cornerhotel.com/">box office</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+			<p><strong><a name="w" id="w"></a>WEDDINGS PARTIES ANYTHING</strong></p>
+			<p>The sold out Weddings Parties Anything show at the Northcote Social Club on June 24 has been moved to the Corner Hotel due to popular demand. All tickets for the NSC show will be honoured. Extra tickets are on sale now through the Corner <a href="http://www.cornerhotel.com/">box office</a>.</p>
+			<p align="right"><a href="#a">Back to Top</a></p>
+	  </div>
+		
+  </div>
+	
+	<div id="footer">	
+		<div id="siteinfo">
+			<p><a href="../about.html#about">About Us</a> | <a href="../about.html#contribute">Contribute</a> | <a href="../about.html#support">Support Us</a> | <a href="../subscribe.html">Subscribe</a> | <a href="../advertise.html">Advertise</a> | <a href="../legalese.html#disclaimer">Disclaimer</a> | <a href="../legalese.html#copyright">Copyright</a> | <a href="../legalese.html#privacy">Privacy Policy </a> | <a href="../contact.html">Contact Us</a></p>
+			<p>&copy; Contents copyright 2005 FeLIX. All rights reserved.</p>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

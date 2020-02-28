@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>FeLIX | Play</title>
+<meta name="description" content="Why not enter the FeLIX Amateur Photo Contest? Find out the premise behind the competition, how to enter, and the rules and requirements of entry.">
+<meta name="keywords" content="FeLIX amateur photo contest, amatuer, amature, photography competition, band photos, music photos, gig photos, film photos, movie photos, cinema photos, photographs, photography, photo contest entry, enter photo contest, photo contest rules, requirements">
+<link href="../css/felix.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+
+if (document.images) {
+	image0on = new Image(); image0on.src = "../images/felixlogo_hover.gif";
+	image1on = new Image(); image1on.src = "../images/musicicon_hover.gif";
+	image2on = new Image(); image2on.src = "../images/filmicon_hover.gif";
+	image3on = new Image(); image3on.src = "../images/guideicon_hover.gif";
+	image4on = new Image(); image4on.src = "../images/playicon_hover.gif";
+	image5on = new Image(); image5on.src = "../images/forumicon_hover.gif";
+	
+	image0off = new Image(); image0off.src = "../images/felixlogo.gif";
+	image1off = new Image(); image1off.src = "../images/musicicon.gif";
+	image2off = new Image(); image2off.src = "../images/filmicon.gif";
+	image3off = new Image(); image3off.src = "../images/guideicon.gif";
+	image4off = new Image(); image4off.src = "../images/playicon_visited.gif";
+	image5off = new Image(); image5off.src = "../images/forumicon.gif";
+
+	image6off = new Image(); image6off.src = "../images/tagline.gif";
+	image6felix = new Image(); image6felix.src = "../images/felixtext.gif";
+	image6music = new Image(); image6music.src = "../images/musictext.gif";
+	image6film = new Image(); image6film.src = "../images/filmtext.gif";
+	image6whatson = new Image(); image6whatson.src = "../images/guidetext.gif";
+	image6quiz = new Image(); image6quiz.src = "../images/playtext.gif";
+	image6forum = new Image(); image6forum.src = "../images/forumtext.gif";
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+}
+
+function handleClick(whichClick) {
+	if (whichClick == "Logon") {
+	// then the user wants to hide the layer
+		hideLayer("logon");
+		showLayer("logoff");
+		hideLayer("topad");
+	}
+	else if (whichClick == "Logoff") {
+	// then the user wants to show the layer
+		hideLayer("logoff");
+		showLayer("logon");
+		showLayer("topad");
+	}
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="mainbox">
+
+	<div id="header">
+
+		<div id="masthead">
+			<table border="0" width="760" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="120" height="36" valign="top"><a href="../index.html" onmouseover="changeImages('image0','image0on','image6','image6felix')" onmouseout="changeImages('image0','image0off','image6','image6off');"><img src="../images/felixlogo.gif" alt="FeLIX" name="image0" width="120" height="36" border="0"></a></td>
+					<td width="103" height="36"></td>
+					<td width="47" height="36"><a href="../music/music.html" onmouseover="changeImages('image1','image1on','image6','image6music');" onmouseout="changeImages('image1','image1off','image6','image6off');"><img src="../images/musicicon.gif" alt="Go to Music Section" name="image1" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../film/film.html" onmouseover="changeImages('image2','image2on','image6','image6film');" onmouseout="changeImages('image2','image2off','image6','image6off');"><img src="../images/filmicon.gif" alt="Go to Film Section" name="image2" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../guide/guide.html" onmouseover="changeImages('image3','image3on','image6','image6whatson');" onmouseout="changeImages('image3','image3off','image6','image6off');"><img src="../images/guideicon.gif" alt="Go to What's On" name="image3" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="play.html" onmouseover="changeImages('image4','image4on','image6','image6quiz');" onmouseout="changeImages('image4','image4off','image6','image6off');"><img src="../images/playicon_visited.gif" alt="Go to Quizzes and Competitions" name="image4" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../forum/forum.html" onmouseover="changeImages('image5','image5on','image6','image6forum');" onmouseout="changeImages('image5','image5off','image6','image6off');"><img src="../images/forumicon.gif" alt="Go to the Forums" name="image5" width="47" height="36" border="0"></a></td>
+					<td width="86" height="36"></td>
+					<td width="136" height="36"><img src="../images/tagline.gif" alt="Feel Film, Feel Music" name="image6" width="136" height="36"></td>
+				</tr>
+			</table>
+		</div>
+	
+	<div id="logoff" style="display:block">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="400"><a href="../about.html#support">Thank you for supporting FeLIX!</a></td>
+				<td align="right" height="25">Welcome Rosanne Bersten | <a href="#">Log Off</a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="breadcrumbbar">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="500"><a href="../index.html">Home</a> / Play</td>
+				<td align="right" height="25"></td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	
+	<div id="content">
+	
+		<div id="extrascolumn">
+	      <p class="sidebarhead">Past winners &mdash; Click to enlarge</p>
+	      <p><a href="images/4apr.jpg" target="_blank"><img src="images/4apr_th.jpg" alt="Image of the FeLIX team" width="200" height="150" border="0"></a></p>
+	      <p align="center" class="caption"> An inspired depiction of that movie where four students create a web site. Photo by FeLIX </p>
+  	      <p><a href="images/3mar.jpg" target="_blank"><img src="images/3mar_th.jpg" alt="The Polyphonic Spree play music" width="200" height="150" border="0"></a></p>
+	      <p align="center" class="caption"> The Polyphonic Spree at The Forum in Melbourne, Australia. Photo by Krista </p>
+	      <p><a href="images/2feb.jpg" target="_blank"><img src="images/2feb_th.jpg" alt="Tim Roger's face" width="200" height="150" border="0"></a></p>
+	      <p align="center" class="caption">Tim Rogers soothes punters at the Metro Theatre, Sydney, Australia. Photo by DXCX</p>
+	      <p><a href="images/1jan.jpg" target="_blank"><img src="images/1jan_th.jpg" alt="PJ Harvey plays guitar" width="200" height="150" border="0"></a></p>
+	      <p align="center" class="caption"> PJ Harvey rocks Festival Hall, Melbourne, Australia. Photo by Carlos Fisher </p>
+
+		</div>
+			
+		<div id="storycolumn">
+			<p class="storyhead">FeLIX Amateur Photo Contest</p>
+			<p class="storykicker">Enter the FeLIX Amateur Photo Contest and turn your happy snaps into prizes! Find out the <a href="#idea">idea</a> behind the competition,  how to <a href="#enter">enter</a>, and the <a href="#rules">rules and requirements</a> of entry.</p>
+			<p class="storysubhead"><a name="idea"></a>The idea</p>
+			<p>The FeLIX Amateur Photo Contest began because our readers often send us photos of their favourite gigs and musicians. We want to showcase some of this great amateur photography on our site.</p>
+			<p>Because FeLIX is dedicated to both music and film, the competition also encourages cinema buffs to recreate moments from their favourite movies and send us a photograph. Capture your favourite music or film moment, share it with FeLIX readers, and you might score some CDs while you&rsquo;re at it.</p>
+			<p>First and foremost we are looking for fun photos that look great. Creativity, humour and your ability to capture the essence of your chosen subject will also be evaluated.</p>
+			<p>This is a fantastic opportunity to get your work exposure if you are a budding photographer. It is also the perfect excuse to ask the hot guy/girl next door to pose for you in your recreation of the pottery scene from <em>Ghost</em> &ndash; just keep your clothes on please!</p>
+			<p>To enter the competition you must be a current FeLIX subscriber. If you are already a subscriber it is free to enter the competition. Don&rsquo;t forget to enter our poll at the end of the year to vote for FeLIX photo of the year!</p>
+			<p class="storysubhead"><a name="enter"></a>How to enter</p>
+			<ol>
+			  <li>Get your digital camera and photograph your favourite band, performer or actor. Or simply make your exhibitionist friends dress up and impersonate a musician or actor for your lovely photo.</li>
+			  <li>Sign up as a FeLIX <a href="../subscribe.html">subscriber</a> or log in your current subscription details to show that you are eligible to enter the competition.</li>
+			  <li> Submit your photo by clicking on the entry form link below and entering this month&rsquo;s competition.</li>
+			  <li>After you upload your photo and fill in the entry form, check your email to confirm your submission.</li>
+			  <li>Check FeLIX on the last day of the month that you entered to see if you got lucky. Winners will also be notified by email.</li>
+		  </ol>
+			<p class="storysubhead"><a name="rules"></a>Rules and requirements</p>
+			<ol>
+			  <li> Images must be in JPEG format (.jpeg, .jpg) with dimensions of 640x480 pixels. File size must be no larger than 200KB.</li>
+			  <li>You must be a current FeLIX subscriber to enter the competition.</li>
+			  <li>No more than one entry per person each month.</li>
+			  <li>You must agree to the conditions on the entry form page.</li>
+			  <li>All entries are subject to Victorian laws, regardless of the point of origin of the uploading computer, residence of the photographer or subject of the photo.</li>
+		  </ol>
+			<p>If you have questions or problems please contact <a href="mailto:competition@felixmag.com.au">FeLIX</a>.</p>
+			<hr>
+			<p class="storyhead">Enter this month&rsquo;s contest</p>
+			<form action="" method="post" enctype="multipart/form-data" name="form1">
+              <table width="480"  border="0" cellspacing="0" cellpadding="10">
+                <tr>
+                  <td width="120">Name</td>
+                  <td width="360"><input name="textfield" type="text" size="40"></td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td><input name="textfield" type="text" size="40"></td>
+                </tr>
+                <tr>
+                  <td>City</td>
+                  <td><input name="textfield" type="text" size="40"></td>
+                </tr>
+                <tr>
+                  <td>Describe your photo in 20 words or less, mention the film or band depicted and location if relevant</td>
+                  <td><textarea name="textarea" cols="35" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><input type="file" name="file"></td>
+                </tr>
+                <tr>
+                  <td colspan="2">Please check this box to indicate that you have read, understood and agree to the <a href="#conditions">conditions</a>. 
+                  <input type="checkbox" name="checkbox" value="checkbox"></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><input type="reset" name="Reset" value="Submit" onclick="window.open('submitphoto.html','Thanks','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">
+                      <input type="reset" name="Reset" value="Reset"></td>
+                </tr>
+              </table>
+		  </form>
+			<hr>
+			<p class="storyhead"><a name="conditions"></a>Conditions of entry</p>
+			<ul>
+			  <li>Prior to submitting photos, entrants must log in as a FeLIX subscriber; non-subscribers may not enter the competition.</li>
+			  <li>Your contact details will be used solely for the distribution of prizes. If you win, the name that you provide will be published with your photograph.</li>
+			  <li>You may enter one photo per person each month.</li>
+			  <li>Entrants must own the copyright of the photograph before they enter the competition.</li>
+			  <li>Photos that the publisher deems inappropriate for this site or that are of a pornographic nature will not be accepted.</li>
+			  <li>While the copyright of the photograph remains the property of the entrant, first digital rights to publish the photo will be retained by FeLIX.</li>
+			  <li>The judge&rsquo;s decision is final and is not open to negotiation.</li>
+			  <li>Winners will be notified by email on the last day of the month that they entered the competition. Winning photographs will be displayed on the FeLIX past winners page.</li>
+			  <li>Winners will receive two CDs and free exposure for their photography. This prize is non-transferable. You get what you are given &ndash; please do not request specific albums.</li>
+		  </ul>
+	  </div>
+		
+  </div>
+	
+	<div id="footer">	
+		<div id="siteinfo">
+			<p><a href="../about.html#about">About Us</a> | <a href="../about.html#contribute">Contribute</a> | <a href="../about.html#support">Support Us</a> | <a href="../subscribe.html">Subscribe</a> | <a href="../advertise.html">Advertise</a> | <a href="../legalese.html#disclaimer">Disclaimer</a> | <a href="../legalese.html#copyright">Copyright</a> | <a href="../legalese.html#privacy">Privacy Policy </a> | <a href="../contact.html">Contact Us</a></p>
+			<p>&copy; Contents copyright 2005 FeLIX. All rights reserved.</p>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>FeLIX | Film</title>
+<meta name="keywords" content="FeLIX film, FeLIX film homepage, Comics come to life, Melinda Melinda, Fitzroy Shorts, horror classics">
+<meta name="description" content="FeLIX magazine film homepage, with feature articles and film reviews; updated weekly.">
+<link href="../css/felix.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+
+if (document.images) {
+	image0on = new Image(); image0on.src = "../images/felixlogo_hover.gif";
+	image1on = new Image(); image1on.src = "../images/musicicon_hover.gif";
+	image2on = new Image(); image2on.src = "../images/filmicon_hover.gif";
+	image3on = new Image(); image3on.src = "../images/guideicon_hover.gif";
+	image4on = new Image(); image4on.src = "../images/playicon_hover.gif";
+	image5on = new Image(); image5on.src = "../images/forumicon_hover.gif";
+	
+	image0off = new Image(); image0off.src = "../images/felixlogo.gif";
+	image1off = new Image(); image1off.src = "../images/musicicon.gif";
+	image2off = new Image(); image2off.src = "../images/filmicon_visited.gif";
+	image3off = new Image(); image3off.src = "../images/guideicon.gif";
+	image4off = new Image(); image4off.src = "../images/playicon.gif";
+	image5off = new Image(); image5off.src = "../images/forumicon.gif";
+
+	image6off = new Image(); image6off.src = "../images/tagline.gif";
+	image6felix = new Image(); image6felix.src = "../images/felixtext.gif";
+	image6music = new Image(); image6music.src = "../images/musictext.gif";
+	image6film = new Image(); image6film.src = "../images/filmtext.gif";
+	image6whatson = new Image(); image6whatson.src = "../images/guidetext.gif";
+	image6quiz = new Image(); image6quiz.src = "../images/playtext.gif";
+	image6forum = new Image(); image6forum.src = "../images/forumtext.gif";
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+}
+
+function handleClick(whichClick) {
+	if (whichClick == "Logon") {
+	// then the user wants to hide the layer
+		hideLayer("logon");
+		showLayer("logoff");
+		hideLayer("topad");
+	}
+	else if (whichClick == "Logoff") {
+	// then the user wants to show the layer
+		hideLayer("logoff");
+		showLayer("logon");
+		showLayer("topad");
+	}
+}
+
+</script>
+</head>
+
+<body>
+
+
+<div id="mainbox">
+
+	<div id="header">
+
+		<div id="masthead">
+			<table border="0" width="760" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="120" height="36" valign="top"><a href="../index.html" onmouseover="changeImages('image0','image0on','image6','image6felix')" onmouseout="changeImages('image0','image0off','image6','image6off');"><img src="../images/felixlogo.gif" alt="FeLIX" name="image0" width="120" height="36" border="0"></a></td>
+					<td width="103" height="36"></td>
+					<td width="47" height="36"><a href="../music/music.html" onmouseover="changeImages('image1','image1on','image6','image6music');" onmouseout="changeImages('image1','image1off','image6','image6off');"><img src="../images/musicicon.gif" alt="Go to Music Section" name="image1" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="film.html" onmouseover="changeImages('image2','image2on','image6','image6film');" onmouseout="changeImages('image2','image2off','image6','image6off');"><img src="../images/filmicon_visited.gif" alt="Go to Film Section" name="image2" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../guide/guide.html" onmouseover="changeImages('image3','image3on','image6','image6whatson');" onmouseout="changeImages('image3','image3off','image6','image6off');"><img src="../images/guideicon.gif" alt="Go to What's On" name="image3" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../play/play.html" onmouseover="changeImages('image4','image4on','image6','image6quiz');" onmouseout="changeImages('image4','image4off','image6','image6off');"><img src="../images/playicon.gif" alt="Go to Quizzes and Competitions" name="image4" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../forum/forum.html" onmouseover="changeImages('image5','image5on','image6','image6forum');" onmouseout="changeImages('image5','image5off','image6','image6off');"><img src="../images/forumicon.gif" alt="Go to the Forums" name="image5" width="47" height="36" border="0"></a></td>
+					<td width="86" height="36"></td>
+					<td width="136" height="36"><img src="../images/tagline.gif" alt="Feel Film, Feel Music" name="image6" width="136" height="36"></td>
+				</tr>
+			</table>
+		</div>
+	
+	<div id="logoff" style="display:block">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="400"><a href="../about.html#support">Thank you for supporting FeLIX!</a></td>
+				<td align="right" height="25">Welcome Rosanne Bersten | <a href="#">Log Off</a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="breadcrumbbar">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="500"><a href="../index.html">Home</a> / Film </td>
+				<td align="right" height="25"></td>
+			</tr>
+		</table>	
+		
+	</div>
+	</div>
+	
+	<div id="content">
+	
+		<div id="topstory">
+			<p class="columnhead"><a href="features/comic/comic1.html">FILM &mdash; QUICK PICK</a></p>
+			<a href="features/comic/comic1.html"><img src="features/comic/images/comic1_th.jpg" alt="Catwoman" width="100" height="100" border="1"></a>
+			<p class="blurbhead"><a href="features/comic/comic1.html">Comics come to life</a></p>
+			<p class="byline">By Melanie Sheridan</p>
+			<p>Making a movie based on a comic book is a difficult art. The film medium necessitates a certain realism and the comic page demands the opposite. Technology has made the bridge between the comic book page and the screen easier to cross, but spectacular visuals alone do not make a movie. As any fan will tell you, they are not called comic books for nothing; sure there&rsquo;s plenty of KAPOW! but there&rsquo;s equally as much emphasis on character development. So with the flood of comic book films spreading, like a swarm of mutant beasts across the earth, Melanie Sheridan separates the good guys from the bad&nbsp;<a href="features/comic/comic1.html">&gt;&gt;&gt; </a></p>
+	  </div>
+	
+		<div id="leftcolumn">
+			<p class="columnhead">FEATURES</p>
+				<div class="blurb">
+					<a href="features/fitzroy/fitzroy1.html"><img src="features/fitzroy/images/fitzroy1_th.jpg" alt="MC at Fitzroy Shorts introduces film" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="features/fitzroy/fitzroy1.html">Talkin&rsquo; short film in Melbourne </a></p>
+					<p class="byline">By Pauline de Laveaux</p>
+					<p>From engineer to sculptor, Thomas Baricevic has finally found his calling in short film, as the director of Fitzroy Shorts. Pauline de Laveaux has a chat with the curator to see how it all came about&nbsp;<a href="features/fitzroy/fitzroy1.html">&gt;&gt;&gt; </a></p>
+		  </div>
+				<div class="blurb">
+					<a href="features/woodyallen/woodyallen1.html"><img src="features/woodyallen/images/woodyallen3_th.jpg" alt="Woody Allen" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="features/woodyallen/woodyallen1.html">The duality of Woody Allen</a></p>
+					<p class="byline">By Paul Fischer </p>
+					<p> Twenty-five years ago, Australian Paul Fischer travelled to New York to speak Woody Allen, for what became the director's first Australian interview. Now, for the first time in a quarter of a century,  Fischer meets the elusive filmmaker to discuss his latest film, <em>Melinda and Melinda</em>&nbsp;<a href="features/woodyallen/woodyallen1.html">&gt;&gt;&gt; </a></p>
+		  </div>
+		  <div class="blurb">
+					<a href="features/horror/horror1.html"><img src="features/horror/images/horror1_th.jpg" alt="Image from the movie Suspiria" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="features/horror/horror1.html">The blood-soaked reels of horror film </a></p>
+					<p class="byline">By Pauline de Laveaux</p>
+					<p>The horror genre is almost as old as film itself. With countless sub-genres and repeated themes it&rsquo;s hard to stick to a short discussion. Pauline de Laveaux glances at the blood-stained classics and ventures into the fresh wounds of the last five years, encouraging even the fearful to become part of the cult of horror viewers&nbsp;<a href="features/horror/horror1.html">&gt;&gt;&gt;</a> </p>
+		  </div>
+		</div>
+			
+		<div id="middlecolumn">
+			<p class="columnhead">REVIEWS</p>
+				<div class="reviewblurb">
+					<a href="reviews/birth/birth.html"><img src="reviews/birth/images/birth_th.jpg" alt="Nicole Kidman in Birth" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/birth/birth.html">Birth</a><br>
+				  (New Line Productions)</p>
+					<p class="byline">By Lucy Metcalfe</p>
+		  </div>
+				
+				<div class="reviewblurb">
+					<a href="reviews/crash/crash.html"><img src="reviews/crash/images/crash_th.jpg" alt="Scene from the movie Crash" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/crash/crash.html">Crash</a><br>
+				  (Lions Gate Entertainment)</p>
+					<p class="byline">By Greg King </p>
+		  </div>
+				
+				<div class="reviewblurb">
+					<a href="reviews/hitchhiker/hitchhiker.html"><img src="reviews/hitchhiker/images/hitchhiker_th.jpg" alt="Scene from the movie The Hitchhiker's Guide to the Galaxy" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/hitchhiker/hitchhiker.html">The Hitchhiker's Guide to the Galaxy</a><br>
+				  (Touchstone Pictures)</p>
+					<p class="byline">By Simone Ubaldi </p>
+		  </div>
+
+				<div class="reviewblurb">
+					<a href="reviews/kingdomofheaven/kingdomofheaven.html"><img src="reviews/kingdomofheaven/images/kingdomofheaven_th.jpg" alt="Scene from the movie Kingdom of Heaven" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/kingdomofheaven/kingdomofheaven.html">Kingdom of Heaven </a><br>
+				  (20th Century Fox)</p>
+					<p class="byline">By Simone Ubaldi</p>
+		  </div>
+
+				<div class="reviewblurb">
+					<a href="reviews/starwars/starwars.html"><img src="reviews/starwars/images/starwars_th.jpg" alt="Scene from Star Wars III" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/starwars/starwars.html">Star Wars Episode III: Revenge of the Sith </a><br>
+				  (Lucasfilm)</p>
+					<p class="byline">By Greg King </p>
+		  </div>
+
+		</div>
+		
+	  <div id="rightcolumn">
+			<p class="columnhead">ARCHIVES</p>
+			<p>Features:</p>
+		    <ul>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">The Australian Film Industry in need of rescue </a></li>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Australian short films lead the way</a></li>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Sejong Park on <em>Birthday Boy</em> &amp; the Oscars</a></li>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Music video to feature film in five easy steps</a></li>
+        	</ul>
+	    <p>More Archived Features&nbsp;<a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">&gt;&gt;&gt; </a></p>
+	    <p>Reviews:</p>
+	    <ul>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">9 Songs</a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">xXx 2: The Next Level</a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Hostage</a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">The Edukators</a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Maria Full Of Grace</a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Downfall</a></li>
+        </ul>
+	    <p>More Archived Reviews&nbsp;<a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">&gt;&gt;&gt; </a></p>
+	  </div>
+	</div>
+	
+	<div id="footer">	
+		<div id="siteinfo">
+			<p><a href="../about.html#about">About Us</a> | <a href="../about.html#contribute">Contribute</a> | <a href="../about.html#support">Support Us</a> | <a href="../subscribe.html">Subscribe</a> | <a href="../advertise.html">Advertise</a> | <a href="../legalese.html#disclaimer">Disclaimer</a> | <a href="../legalese.html#copyright">Copyright</a> | <a href="../legalese.html#privacy">Privacy Policy </a> | <a href="../contact.html">Contact Us</a></p>
+			<p>&copy; Contents copyright 2005 FeLIX. All rights reserved.</p>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

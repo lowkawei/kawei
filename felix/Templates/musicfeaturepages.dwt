@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>FeLIX | Music | Feature: Buying Rare Music Online (1/1)</title>
+<meta name="description" content="Shopping online for rare music is increasingly popular, writes David Winter from FeLIX magazine. Rare music collectors now use the internet to buy hard to find records and CDs.">
+<meta name="keywords" content="rare music, web music shopping, internet music sales, buy rare music online, rare music collectors, rare music articles, music online shopping, net music shopping, find rare music online, collect music internet."><!-- TemplateEndEditable -->
+<link href="../css/felix.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+
+if (document.images) {
+	image0on = new Image(); image0on.src = "../../../images/felixlogo_hover.gif";
+	image1on = new Image(); image1on.src = "../../../images/musicicon_hover.gif";
+	image2on = new Image(); image2on.src = "../../../images/filmicon_hover.gif";
+	image3on = new Image(); image3on.src = "../../../images/guideicon_hover.gif";
+	image4on = new Image(); image4on.src = "../../../images/playicon_hover.gif";
+	image5on = new Image(); image5on.src = "../../../images/forumicon_hover.gif";
+	
+	image0off = new Image(); image0off.src = "../../../images/felixlogo.gif";
+	image1off = new Image(); image1off.src = "../../../images/musicicon.gif";
+	image2off = new Image(); image2off.src = "../../../images/filmicon.gif";
+	image3off = new Image(); image3off.src = "../../../images/guideicon.gif";
+	image4off = new Image(); image4off.src = "../../../images/playicon.gif";
+	image5off = new Image(); image5off.src = "../../../images/forumicon.gif";
+
+	image6off = new Image(); image6off.src = "../../../images/tagline.gif";
+	image6felix = new Image(); image6felix.src = "../../../images/felixtext.gif";
+	image6music = new Image(); image6music.src = "../../../images/musictext.gif";
+	image6film = new Image(); image6film.src = "../../../images/filmtext.gif";
+	image6whatson = new Image(); image6whatson.src = "../../../images/guidetext.gif";
+	image6quiz = new Image(); image6quiz.src = "../../../images/playtext.gif";
+	image6forum = new Image(); image6forum.src = "../../../images/forumtext.gif";
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+}
+
+function handleClick(whichClick) {
+	if (whichClick == "Logon") {
+	// then the user wants to hide the layer
+		hideLayer("logon");
+		showLayer("logoff");
+		hideLayer("topad");
+	}
+	else if (whichClick == "Logoff") {
+	// then the user wants to show the layer
+		hideLayer("logoff");
+		showLayer("logon");
+		showLayer("topad");
+	}
+}
+
+</script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="mainbox">
+
+	<div id="header">
+
+		<div id="masthead">
+			<table border="0" width="760" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="120" height="36" valign="top"><a href="../index.html" onmouseover="changeImages('image0','image0on','image6','image6felix')" onmouseout="changeImages('image0','image0off','image6','image6off');"><img src="../images/felixlogo.gif" alt="FeLIX" name="image0" width="120" height="36" border="0"></a></td>
+					<td width="103" height="36"></td>
+					<td width="47" height="36"><a href="../music/music.html" onmouseover="changeImages('image1','image1on','image6','image6music');" onmouseout="changeImages('image1','image1off','image6','image6off');"><img src="../images/musicicon.gif" alt="Go to Music Section" name="image1" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../film/film.html" onmouseover="changeImages('image2','image2on','image6','image6film');" onmouseout="changeImages('image2','image2off','image6','image6off');"><img src="../images/filmicon.gif" alt="Go to Film Section" name="image2" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../guide/guide.html" onmouseover="changeImages('image3','image3on','image6','image6whatson');" onmouseout="changeImages('image3','image3off','image6','image6off');"><img src="../images/guideicon.gif" alt="Go to What's On" name="image3" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../play/play.html" onmouseover="changeImages('image4','image4on','image6','image6quiz');" onmouseout="changeImages('image4','image4off','image6','image6off');"><img src="../images/playicon.gif" alt="Go to Quizzes and Competitions" name="image4" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../forum/forum.html" onmouseover="changeImages('image5','image5on','image6','image6forum');" onmouseout="changeImages('image5','image5off','image6','image6off');"><img src="../images/forumicon.gif" alt="Go to the Forums" name="image5" width="47" height="36" border="0"></a></td>
+					<td width="86" height="36"></td>
+					<td width="136" height="36"><img src="../images/tagline.gif" alt="Feel Film, Feel Music" name="image6" width="136" height="36"></td>
+				</tr>
+			</table>
+		</div>
+	
+	<div id="logoff" style="display:block">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="400"><a href="../about.html#support">Thank you for supporting FeLIX!</a></td>
+				<td align="right" height="25">Welcome Rosanne Bersten | <a href="#">Log Off</a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="breadcrumbbar">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="500"><a href="../index.html">Home</a> / <a href="../music/music.html">Music</a> / Features</td>
+				<td align="right" height="25"><!-- TemplateBeginEditable name="EditPageNumbers" -->Page: 1 | <a href="../music/features/raremusic/raremusic2.html">2</a> | <a href="../music/features/raremusic/raremusic3.html">3</a><!-- TemplateEndEditable --></td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	
+	<div id="content">
+	
+		<!-- TemplateBeginEditable name="EditSideBar" -->
+		<div id="extrascolumn"> <img src="../music/features/raremusic/images/raremusic1.jpg" alt="alt text here" width="200" height="267">
+            <p class="caption">Queen&rsquo;s Bohemian Rhapsody (UK special issue in blue vinyl) is one of the most valuable rare records in the world. Photo courtesy of www.queenmuseum.com</p>
+	    </div>
+		<!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="EditContent" -->
+		<div id="storycolumn">
+          <p class="storyhead">Burn down the record store &mdash; buying rare music online</p>
+          <p class="storykicker">From auction sites to specialist retailers, the rare music market has invaded cyberspace. David Winter explores online resources and traditional music-hunting tactics &ndash; and assembles some tips [link to tips] to help you find rare music online.</p>
+          <p>Rare music collectors can emerge from specialist music stores, markets, op-shops and record fairs and go online to source goods. The internet provides easy access to many out-of-print records and hard to find CDs from around the world.</p>
+          <p>Many music aficionados might shudder to imagine replacing hours digging though crates of records with the click of a mouse. But the convenience and choice online shopping provides draws many collectors to their computers, including Jacob Fischer.</p>
+          <p>Jacob stockpiles 70s rock rarities &ndash; he boasts a collection numbering in the thousands. He turned to the internet four years ago when he couldn&rsquo;t find <a href="http://www.kraftwerk.com/">Kraftwerk&rsquo;s</a> obscure, out-of-print debut album in stores. </p>
+          <p>Online, Jacob discovered that the album was briefly reissued on a now-defunct label. He then tracked down a seller in Vancouver and his album arrived within three weeks. Jacob now buys most of his music online.</p>
+          <p>He hasn&rsquo;t completely abandoned the racks of albums and CDs in music stores though. &lsquo;You can&rsquo;t get everything on the Net,&rsquo; he says. &lsquo;It&rsquo;d be boring.&rsquo; He still frequents local music shops to chat with staff whose expert knowledge he finds helpful. &lsquo;I like talking to them about stock they&rsquo;re getting in, and looking through their racks for something <a href="../music/features/raremusic/raremusic2.html">obscure,&rsquo; Jacob says.&nbsp;&gt;&gt;&gt;</a></p>
+		  </div>
+		<!-- TemplateEndEditable --></div>
+	
+	<div id="footer">	
+		<div id="siteinfo">
+			<p><a href="../about.html#about">About Us</a> | <a href="../about.html#contribute">Contribute</a> | <a href="../about.html#support">Support Us</a> | <a href="../subscribe.html">Subscribe</a> | <a href="../advertise.html">Advertise</a> | <a href="../legalese.html#disclaimer">Disclaimer</a> | <a href="../legalese.html#copyright">Copyright</a> | <a href="../legalese.html#privacy">Privacy Policy </a> | <a href="../contact.html">Contact Us</a></p>
+			<p>&copy; Contents copyright 2005 FeLIX. All rights reserved.</p>
+		</div>
+	</div>
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>FeLIX | Music</title>
+<meta name="keywords" content="FeLIX Music, FeLIX Music, Melbourne live music, Kaiser Chiefs, rare music online">
+<meta name="description" content="FeLIX magazine's Music Homepage, with articles and album reviews; updated weekly.">
+<link href="../css/felix.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+
+if (document.images) {
+	image0on = new Image(); image0on.src = "../images/felixlogo_hover.gif";
+	image1on = new Image(); image1on.src = "../images/musicicon_hover.gif";
+	image2on = new Image(); image2on.src = "../images/filmicon_hover.gif";
+	image3on = new Image(); image3on.src = "../images/guideicon_hover.gif";
+	image4on = new Image(); image4on.src = "../images/playicon_hover.gif";
+	image5on = new Image(); image5on.src = "../images/forumicon_hover.gif";
+	
+	image0off = new Image(); image0off.src = "../images/felixlogo.gif";
+	image1off = new Image(); image1off.src = "../images/musicicon_visited.gif";
+	image2off = new Image(); image2off.src = "../images/filmicon.gif";
+	image3off = new Image(); image3off.src = "../images/guideicon.gif";
+	image4off = new Image(); image4off.src = "../images/playicon.gif";
+	image5off = new Image(); image5off.src = "../images/forumicon.gif";
+
+	image6off = new Image(); image6off.src = "../images/tagline.gif";
+	image6felix = new Image(); image6felix.src = "../images/felixtext.gif";
+	image6music = new Image(); image6music.src = "../images/musictext.gif";
+	image6film = new Image(); image6film.src = "../images/filmtext.gif";
+	image6whatson = new Image(); image6whatson.src = "../images/guidetext.gif";
+	image6quiz = new Image(); image6quiz.src = "../images/playtext.gif";
+	image6forum = new Image(); image6forum.src = "../images/forumtext.gif";
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+
+function hideLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "none";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "none";
+	}
+}
+
+function showLayer(whichLayer) {
+	if (document.getElementById) {
+	// this is the way the standards work
+		document.getElementById(whichLayer).style.display = "block";
+	}
+	else if (document.all) {
+	// this is the way old msie versions work
+		document.all[whichlayer].style.display = "block";
+	}
+}
+
+function handleClick(whichClick) {
+	if (whichClick == "Logon") {
+	// then the user wants to hide the layer
+		hideLayer("logon");
+		showLayer("logoff");
+		hideLayer("topad");
+	}
+	else if (whichClick == "Logoff") {
+	// then the user wants to show the layer
+		hideLayer("logoff");
+		showLayer("logon");
+		showLayer("topad");
+	}
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="mainbox">
+
+	<div id="header">
+
+		<div id="masthead">
+			<table border="0" width="760" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="120" height="36" valign="top"><a href="../index.html" onmouseover="changeImages('image0','image0on','image6','image6felix')" onmouseout="changeImages('image0','image0off','image6','image6off');"><img src="../images/felixlogo.gif" alt="FeLIX" name="image0" width="120" height="36" border="0"></a></td>
+					<td width="103" height="36"></td>
+					<td width="47" height="36"><a href="music.html" onmouseover="changeImages('image1','image1on','image6','image6music');" onmouseout="changeImages('image1','image1off','image6','image6off');"><img src="../images/musicicon_visited.gif" alt="Go to Music Section" name="image1" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../film/film.html" onmouseover="changeImages('image2','image2on','image6','image6film');" onmouseout="changeImages('image2','image2off','image6','image6off');"><img src="../images/filmicon.gif" alt="Go to Film Section" name="image2" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../guide/guide.html" onmouseover="changeImages('image3','image3on','image6','image6whatson');" onmouseout="changeImages('image3','image3off','image6','image6off');"><img src="../images/guideicon.gif" alt="Go to What's On" name="image3" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../play/play.html" onmouseover="changeImages('image4','image4on','image6','image6quiz');" onmouseout="changeImages('image4','image4off','image6','image6off');"><img src="../images/playicon.gif" alt="Go to Quizzes and Competitions" name="image4" width="47" height="36" border="0"></a></td>
+					<td width="20" height="36"></td>
+					<td width="47" height="36"><a href="../forum/forum.html" onmouseover="changeImages('image5','image5on','image6','image6forum');" onmouseout="changeImages('image5','image5off','image6','image6off');"><img src="../images/forumicon.gif" alt="Go to the Forums" name="image5" width="47" height="36" border="0"></a></td>
+					<td width="86" height="36"></td>
+					<td width="136" height="36"><img src="../images/tagline.gif" alt="Feel Film, Feel Music" name="image6" width="136" height="36"></td>
+				</tr>
+			</table>
+		</div>
+	
+	<div id="logoff" style="display:block">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="400"><a href="../about.html#support">Thank you for supporting FeLIX!</a></td>
+				<td align="right" height="25">Welcome Rosanne Bersten | <a href="#">Log Off</a></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="breadcrumbbar">
+		<table border="0" width="738" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="500"><a href="../index.html">Home</a> / Music</td>
+				<td align="right" height="25"></td>
+			</tr>
+		</table>	
+		
+	</div>
+	</div>
+	
+	<div id="content">
+	
+		<div id="topstory">
+			<p class="columnhead"><a href="features/raremusic/raremusic1.html">MUSIC &mdash; QUICK PICK</a></p>
+			<a href="features/raremusic/raremusic1.html"><img src="features/raremusic/images/raremusic1_th.jpg" alt="Box of records" width="100" height="100" border="1"></a>
+			<p class="blurbhead"><a href="features/raremusic/raremusic1.html">Burn down the record store &mdash; buying rare music online</a></p>
+			<p class="byline">By David Winter</p>
+			<p>Gone are the days of sifting through racks at the record store, looking for the ultimate rare album. Shopping online for rare music is increasingly popular because it is easy, fast and allows you to access  a global marketplace. Just be careful you don't get burnt &ndash; online prices are often exponentially higher than those in record stores. David Winter investigates where to find rare music online and how to get a fair price&nbsp;<a href="features/raremusic/raremusic1.html">&gt;&gt;&gt; </a></p>
+		</div>
+	
+		<div id="leftcolumn">
+			<p class="columnhead">FEATURES</p>
+				<div class="blurb">
+					<a href="features/discover/discover1.html"><img src="features/discover/images/discover1_th.jpg" alt="Ding Dong Lounge, Melbourne" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="features/discover/discover1.html">Discover Melbourne&rsquo;s live music scene</a></p>
+					<p class="byline">By Daniel Corbett</p>
+					<p>Looking for the ultimate Melbourne live music experience but have no idea where to start? Daniel Corbett will show you how to search for the music you want to hear and find the best live music venues in Melbourne&nbsp;<a href="features/discover/discover1.html">&gt;&gt;&gt; </a></p>
+		  </div>
+				<div class="blurb">
+					<a href="features/kaiserchiefs/kaiserchiefs1.html"><img src="features/kaiserchiefs/images/kaiserchiefs1_th.jpg" alt="Kaiser Chiefs" width="100" height="100" border="1"></a>
+							<p class="blurbhead"><a href="features/kaiserchiefs/kaiserchiefs1.html">I Predict A Riot &mdash; interview with Simon Rix from Kaiser Chiefs</a></p>
+							<p class="byline">By Jaymz Clements</p>
+							<p>Kaiser Chiefs are a band who know how to riot. Their bass player Simon Rix talks about the group&rsquo;s debut album <em>Employment</em>, the new wave of Britpop, and what it&rsquo;s like to be labelled &lsquo;The Next Big Thing&rsquo;&nbsp;<a href="features/kaiserchiefs/kaiserchiefs1.html">&gt;&gt;&gt; </a></p>
+		  </div>
+		</div>
+			
+		<div id="middlecolumn">
+			<p class="columnhead">REVIEWS</p>
+				<div class="reviewblurb">
+					<a href="reviews/acre/acre.html"><img src="reviews/acre/images/acre_th.jpg" alt="Acre CD" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/acre/acre.html">Acre:<br>In God&rsquo;s Car There Are No Spare Seats</a><br>(Route Note Records)</p>
+					<p class="byline">By Philip Kaberry</p>
+		  </div>
+				
+				<div class="reviewblurb">
+					<a href="reviews/elvis/elvis.html"><img src="reviews/elvis/images/elvis_th.jpg" alt="Elvis CD" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/elvis/elvis.html">Elvis Presley:<br>Love, Elvis</a><br>(BMG)</p>
+					<p class="byline">By Bronius Zumeris</p>
+		  </div>
+				
+				<div class="reviewblurb">
+					<a href="reviews/hotsnakes/hotsnakes.html"><img src="reviews/hotsnakes/images/hotsnakes_th.jpg" alt="Hot Snakes CD" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/hotsnakes/hotsnakes.html">Hot Snakes:<br>Peel Sessions EP</a><br>(Swami Records)</p>
+					<p class="byline">By Andrew Tijs</p>
+		  </div>
+
+				<div class="reviewblurb">
+					<a href="reviews/loveaslaughter/loveaslaughter.html"><img src="reviews/loveaslaughter/images/loveaslaughter_th.jpg" alt="Love As Laughter CD" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/loveaslaughter/loveaslaughter.html">Love as Laughter:<br>Laughter&rsquo;s Fifth</a><br>(Sub Pop)</p>
+					<p class="byline">By David Nichols</p>
+		  </div>
+
+				<div class="reviewblurb">
+					<a href="reviews/thestuff/thestuff.html"><img src="reviews/thestuff/images/thestuff_th.jpg" alt="The Stuff CD" width="100" height="100" border="1"></a>
+					<p class="blurbhead"><a href="reviews/thestuff/thestuff.html">The Stuff:<br>Pick It Up, Pig Boy</a><br>(Ill Wind/ Big Records)</p>
+					<p class="byline">By Andrew Tijs</p>
+		  </div>
+
+		</div>
+		
+	  <div id="rightcolumn">
+			<p class="columnhead">ARCHIVES</p>
+			<p>Features:</p>
+		    <ul>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Noise restrictions: residents vs venues </a></li>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Melbourne: the live music capital of Australia? </a></li>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Fireworks bands: can any survive? </a></li>
+		      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Coca~Cola buys into rock music </a></li>
+        	</ul>
+	    <p>More Archived Features&nbsp;<a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">&gt;&gt;&gt; </a></p>
+	    <p>Reviews:</p>
+	    <ul>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Turbonegro: Party Animals </a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Beck: Guero</a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Sleater-Kinney: The Woods</a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Lyrics Born: Same !@#* Different Day </a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">White Stripes: Get Behind Me Satan </a></li>
+	      <li><a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">Gorillaz: Demon Days </a></li>
+        </ul>
+	    <p>More Archived Reviews&nbsp;<a href="#" onClick="window.open('../maintenance.html','Sorry','width=300,height=150,resizable=0,scrollbars=0,location=0,directories=0,status=0,menubar=0,copyhistory=0')">&gt;&gt;&gt; </a></p>
+	  </div>
+	</div>
+	
+	<div id="footer">	
+		<div id="siteinfo">
+			<p><a href="../about.html#about">About Us</a> | <a href="../about.html#contribute">Contribute</a> | <a href="../about.html#support">Support Us</a> | <a href="../subscribe.html">Subscribe</a> | <a href="../advertise.html">Advertise</a> | <a href="../legalese.html#disclaimer">Disclaimer</a> | <a href="../legalese.html#copyright">Copyright</a> | <a href="../legalese.html#privacy">Privacy Policy </a> | <a href="../contact.html">Contact Us</a></p>
+			<p>&copy; Contents copyright 2005 FeLIX. All rights reserved.</p>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

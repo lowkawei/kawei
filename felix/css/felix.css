@@ -1,0 +1,313 @@
+/*************************************************************/
+/* HTML tag styles                                           */
+/*************************************************************/
+
+body {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+a {
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #999966;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FFFF00;
+	text-decoration: none;
+}
+
+
+/*************************************************************/
+/* Common to all pages                                       */
+/*************************************************************/
+
+#mainbox{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+}
+
+#content{
+	margin: 0px;
+	padding: 0px;
+}
+
+#masthead{
+	border-bottom: 2px dotted #999966;
+	width: 760px;
+	padding-bottom: 5px;
+}
+
+#logon{
+	border: 1px dotted #999999;
+	background-color: #333333;
+	margin: 10px 0px;
+	padding: 0px 10px;
+	display:block;
+}
+
+#logoff{
+	border: 1px dotted #999999;
+	background-color: #333333;
+	margin: 10px 0px;
+	padding: 0px 10px;
+	display:none;
+}
+
+#breadcrumbbar{
+	border: 1px dotted #999999;
+	background-color: #333333;
+	margin: 10px 0px;
+	padding: 0px 10px;
+}
+
+#topad{
+	border: 1px dotted #999999;
+	width: 758px;
+	height: 90px;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+	display: block;
+}
+
+#siteinfo{
+	width: 760px;
+	clear: both;
+	text-align:center;
+}
+
+/*************************************************************/
+/* Homepages                                                 */
+/*************************************************************/
+
+#topstory{
+	border: 1px dotted #999999;
+	padding: 10px;
+	margin: 10px 0px;
+	width: 738px;
+	background-color: #333333;
+}
+
+#topstory img{
+	float: left;
+	margin: 0px 5px 5px 0px;
+}
+
+#leftcolumn{
+	border: 1px dotted #999999;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 0px;
+	float: left;
+	width: 218px;
+	background-color: #333333;
+}
+
+#middlecolumn{
+	border: 1px dotted #999999;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	float: left;
+	width: 218px;
+	background-color: #333333;
+}
+
+#rightcolumn{
+	border: 1px dotted #999999;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 0px 10px 10px;
+	float: right;
+	width: 217px;
+	background-color: #333333;
+}
+
+.blurb{
+	font-size: 80%;
+}
+
+.blurb img{
+	float: left;
+	margin: 0px 5px 5px 0px;
+}
+
+.blurbhead{
+	font-weight: bold;
+}
+
+.byline{
+	color: #666666;
+}
+
+.reviewblurb{
+	font-size: 80%;
+	height: 120px;
+}
+
+.reviewblurb img{
+	float: left;
+	margin: 0px 5px 5px 0px;
+}
+
+.columnhead{
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 125%;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+	background-color:#000000;
+	border: 1px dotted #999999;
+	text-align:center;
+	padding: 2px;
+	margin: 0px 0px 10px 0px;
+}
+
+/*************************************************************/
+/* Meta pages                                                */
+/*************************************************************/
+
+#aboutusgraphic{
+	border: 1px dotted #999999;
+	margin: 5px 0px;
+	width: 758px;
+	height: 150px;
+}
+
+#navcolumn{
+	margin-top: 10px;
+	float: left;
+	width: 218px;
+}
+
+#contentcolumn{
+	border: 1px dotted #999999;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 0px 10px 10px;
+	float: right;
+	width: 478px;
+	background-color: #333333;
+}
+
+/*************************************************************/
+/* Features and Reviews Pages                                */
+/*************************************************************/
+
+#extrascolumn{
+	border: 1px dotted #999999;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 0px;
+	float: left;
+	width: 216px;
+	background-color: #000000;
+}
+
+#extrascolumn img{
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+#extrascolumn ul {
+	list-style-type: none;
+/*	margin-left: 0px; */
+/*	padding-left: 0px; */
+}
+
+#extrascolumn ol {
+/*	margin-left: 0px; */
+}
+
+#storycolumn{
+	border: none;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 0px 10px 10px;
+	float: right;
+	width: 478px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.storyhead{
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, helvetica, sans-serif;	
+	font-weight: bold;
+	font-size:150%;
+	color: #FFFFFF;
+}
+
+.storysubhead{
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, helvetica, sans-serif;	
+	font-weight: bold;
+	font-size:120%;
+	color: #FFFFFF;
+}
+
+.storysubsubhead{
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, helvetica, sans-serif;	
+	font-weight: bold;
+	font-size:100%;
+	color: #FFFFFF;
+}
+
+.storykicker{
+	font-style:italic;
+	color: #FFFFFF;
+}
+
+.storybyline{
+	color: #FFFFFF;
+}
+
+.caption{
+	font-size:80%;
+	font-style:italic;
+	color: #FFFFFF;
+}
+
+.sidebarhead{
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	font-size:120%;
+}
+
+.sidebartext{
+	font-size:80%;
+}
+
+.pullquote{
+	font-size:150%;
+	border-top:3px solid #999999;
+	border-bottom:3px solid #999999;
+	font-weight:bold;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+/*************************************************************/
+/* Guide Page                                                */
+/*************************************************************/
+
+#guidenavcolumn{
+	margin-top: 10px;
+	float: left;
+	width: 150px;
+}
+
+#guidecolumn{
+	border: 1px dotted #999999;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 0px 10px 10px;
+	float: right;
+	width: 546px;
+	background-color: #333333;
+}
